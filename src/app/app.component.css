@@ -1,0 +1,21 @@
+:host {
+  --content-padding: 10px;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  padding: var(--content-padding);
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  padding: var(--content-padding);
+}
+  
+/*
+  Copyright Google LLC. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at https://angular.io/license
+*/
